@@ -20,6 +20,7 @@ body
 {
     padding-left: 22.5%;
     padding-right: 22.5%;
+    background-color: white;
 }
 .section-3
 {
@@ -76,26 +77,24 @@ a
     margin-top: 0.5rem;
     margin-bottom: 1rem;
 }
-.section-1 .left button
+button
 {
-    background-color: #3882F6;
-    border: transparent;
+    background-color: transparent;
     border-radius: 0.5rem;
     font-weight: bold;
     font-size: 1.125rem;
     padding: 0.5rem 2rem;
+}
+.section-1 .left button
+{
+    background-color: #3882F6;
+    border: transparent;
     margin-top: 1rem;
 }
 .section-1 img
 {
     max-width: 50%;
 }
-
-.section-2
-{
-    background-color: white;
-}
-
 .section-2 .title
 {
     font-size: 2.25rem;
@@ -125,12 +124,10 @@ a
     color: #1F2937;
     text-align: center;
 }
-
 .section-3
 {
     background-color: #E5E7EB;
 }
-
 .section-3 .quote-and-author
 {
     padding-top: 8rem;
@@ -143,7 +140,6 @@ a
     font-style: italic;
     color: #1F2937;
 }
-
 .quote-and-author .author
 {
     font-size: 1.75rem;
@@ -151,4 +147,38 @@ a
     color: #1F2937;
     text-align: end;
     margin-right: 2rem;
+}
+.section-4
+{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: white;
+    justify-content: center;
+}
+.section-4 .pop-up
+{
+    background-color: #3882F6;
+    border-radius: 0.5rem;
+    padding: 2.5rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: content;
+}
+
+.section-4 .pop-up .title
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.section-4 button
+{
+    border: 0.1rem solid white;
+    align-self: center;
+}
+
+.footer
+{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 2rem;
 }
